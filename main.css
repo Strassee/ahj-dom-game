@@ -1,1 +1,1 @@
-body{color:#999}td{height:120px;text-align:center;width:120px}table,td,th{border:1px solid}.app{align-items:end;display:flex;flex-wrap:wrap;height:30vh;justify-content:center;position:relative;width:100vw}
+body{color:#999}td{height:120px;text-align:center;width:120px}table,td,th{border:1px solid}.app{align-items:center;display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;position:relative;width:100vw}
