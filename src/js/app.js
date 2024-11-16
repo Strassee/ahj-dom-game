@@ -1,11 +1,6 @@
 import Game from "./game/game";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const game = new Game(document.querySelector(".game"));
+  const game = new Game(4, 2000);
   window.game = game;
-  game.addPicture();
-  setInterval(() => {
-    game.deletePicture();
-    game.addPicture();
-  }, 2000);
 });
